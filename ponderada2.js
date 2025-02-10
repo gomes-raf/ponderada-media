@@ -1,3 +1,4 @@
+//Modelo aprovado
 var nota1 = 7
 console.log("Nota 1:", nota1);
 var nota2 = 5
@@ -10,7 +11,11 @@ console.log("Média:", média);
 if (média >= 7) {
     console.log("Aprovado")
 }
+if (média < 7) {
+    console.log("Reprovado")
+}
 
+//Modelo reprovado
 var nota1 = 7
 console.log("Nota 1:", nota1);
 var nota2 = 6
@@ -22,4 +27,7 @@ console.log("Média:", média);
 
 if (média < 7) {
     console.log("Reprovado")
+}
+if (média >= 7) {
+    console.log("Aprovado")
 }
